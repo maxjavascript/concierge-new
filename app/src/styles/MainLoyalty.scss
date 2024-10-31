@@ -1,0 +1,120 @@
+.page__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.breadcrumbs {
+    color: var(--palette-gray-neutral);
+    margin-top: 16px;
+}
+
+.loyalty-wrapper {
+    /* outline: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.page-title-wrapper {
+    /* outline: 1px solid red; */
+    border-radius: 31px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 42px;
+    background-color: var(--palette-gray-medium);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.page-title {
+    text-align: center;
+    color: var(--palette-white);
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+.loyalty-info {
+    /* outline: 2px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--palette-gray-medium-dark);
+    border-radius: 31px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    gap: 40px;
+}
+
+.loyalty-user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.loyalty-user-container {
+    /* outline: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding-left: 30px;
+    padding-top: 30px; */
+    gap: 34px;
+}
+
+.loyalty-user-name {
+    display: flex;
+}
+
+.loyalty-user-balance-wrapper {
+    background-color: var(--palette-gray-lightest);
+    border-radius: 31px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loyalty-user-balance {
+    font: normal 700 16px/22px 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.loyalty-user-photo-wrapper {
+    /* outline: 1px solid rgb(128, 2, 23); */
+    text-align: right;
+    /* padding-right: 30px;
+    padding-top: 30px; */
+}
+
+.loyalty-user-photo {
+    /* outline: 1px solid pink; */
+}
+
+.loyalty-about {
+    /* outline: 1px solid khaki; */
+    margin-bottom: 20px;
+}
+
+.loyalty-about-list {
+    /* outline: 1px solid firebrick; */
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.loyalty-about-item {
+    position: relative;
+    padding-left: 7px;
+}
+
+.loyalty-about-item::before {
+    content: '-';
+    position: absolute;
+    left: 0;
+    margin-right: 8px;
+}

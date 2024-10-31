@@ -1,0 +1,73 @@
+// Italiana Regular
+@font-face {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Italiana'), url('./../fonts/italiana/400.woff2') format('woff2'),
+        url('./../fonts/italiana/400.woff') format('woff'),
+        url('./../fonts/italiana/400.ttf') format('truetype');
+}
+
+// Montserrat Regular
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat'),
+        url('./../fonts/montserrat/400.woff2') format('woff2'),
+        url('./../fonts/montserrat/400.woff') format('woff'),
+        url('./../fonts/montserrat/400.ttf') format('truetype');
+}
+
+// Montserrat Medium
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Montserrat'),
+        url('./../fonts/montserrat/500.woff2') format('woff2'),
+        url('./../fonts/montserrat/500.woff') format('woff'),
+        url('./../fonts/montserrat/500.ttf') format('truetype');
+}
+
+// Montserrat Semibold
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat'),
+        url('./../fonts/montserrat/600.woff2') format('woff2'),
+        url('./../fonts/montserrat/600.woff') format('woff'),
+        url('./../fonts/montserrat/600.ttf') format('truetype');
+}
+
+// Montserrat Bold
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat'),
+        url('./../fonts/montserrat/700.woff2') format('woff2'),
+        url('./../fonts/montserrat/700.woff') format('woff'),
+        url('./../fonts/montserrat/700.ttf') format('truetype');
+}
+
+// Inter Regular
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Inter'), url('./../fonts/inter/400.woff2') format('woff2'),
+        url('./../fonts/inter/400.woff') format('woff'),
+        url('./../fonts/inter/400.ttf') format('truetype');
+}
+
+// Inter Bold
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Inter'), url('./../fonts/inter/700.woff2') format('woff2'),
+        url('./../fonts/inter/700.woff') format('woff'),
+        url('./../fonts/inter/700.ttf') format('truetype');
+}

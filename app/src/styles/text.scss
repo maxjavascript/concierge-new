@@ -1,0 +1,29 @@
+.text {
+    margin: 0;
+
+    &--h2 {
+        font: normal 400 28px/22px 'Italiana', Helvetica, Arial, sans-serif;
+    }
+
+    &--h3 {
+        font: normal 700 12px/22px 'Montserrat', Helvetica, Arial, sans-serif;
+
+        &-medium {
+            font: normal 500 16px/22px 'Montserrat', Helvetica, Arial,
+                sans-serif;
+        }
+
+        &-new {
+            font: normal 300 12px/14px 'Montserrat', Helvetica, Arial,
+                sans-serif;
+        }
+    }
+
+    &--breadcrumbs {
+        font: normal 700 8px/22px 'Inter', Helvetica, Arial, sans-serif;
+    }
+
+    &--description {
+        font: normal 500 12px/22px 'Montserrat', Helvetica, Arial, sans-serif;
+    }
+}
