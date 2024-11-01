@@ -13,6 +13,11 @@
         text-align: center;
         margin-top: 29px;
     }
+
+    .section-hot-new {
+        width: 110%;
+        margin-left: -5%;
+    }
 }
 
 /* Category */
@@ -42,35 +47,6 @@
     }
 }
 
-/* Slider */
-.slider-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 22px;
-    align-items: center;
-    text-align: center;
-    margin-top: 10px;
-
-    .slider-item-1,
-    .slider-item-3 {
-        width: 78px;
-        height: 258px;
-        border: 1px solid var(--palette-black);
-        border-radius: 31px;
-        background-color: var(--palette-white);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-        background-size: cover;
-        background-position: center;
-    }
-
-    .slider-item-2 {
-        width: 203px;
-        height: 258px;
-        border: 1px solid black;
-        border-radius: 31px;
-        background-color: var(--palette-white);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-        background-size: cover;
-        background-position: center;
-    }
+.section-hot-new .section-title {
+    margin-bottom: 17px;
 }
